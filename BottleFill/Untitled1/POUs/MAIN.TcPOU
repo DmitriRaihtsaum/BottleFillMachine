@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{bbc2608b-f0e9-4100-9c8d-3931d6a0ecb9}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	BottleTester : fb_BottleTester_Main;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[BottleTester ();]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
